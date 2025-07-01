@@ -1,0 +1,72 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Node.js
+/node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Firebase specific files
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Netlify specific files
+.netlify/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.*
+!.env.example # Keep .env.example if you have one
+
+# Logs and other generated files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build artifacts
+/dist/
+/build/
+/out/
+
+# Dependency directories
+/vendor/
+
+# User-specific files
+*.local
+
+# Backup files
+*~
+*.bak
